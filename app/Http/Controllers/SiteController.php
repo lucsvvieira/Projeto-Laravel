@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 class SiteController extends Controller
 {
 
+    public function components() {
+        return view('comp');
+    }
+
     public function index2() {
         return view('include');
     }
